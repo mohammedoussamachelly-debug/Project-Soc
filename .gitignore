@@ -1,0 +1,8 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# Raw unorganized screenshots (originals kept in phase folders)
+*_n.png
+Capture d'écran*
+.vscode/
