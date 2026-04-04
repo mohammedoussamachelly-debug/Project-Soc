@@ -49,7 +49,7 @@ At this stage, Suricata was configured in **IDS mode only**. That means it watch
 We also tuned the rule actions: any rules that originally had a `Drop` action were remapped to `Alert`. This ensures nothing gets silently dropped during our observation window.
 
 ![Suricata IDS Administration](screenshots/01-suricata-ids-administration.png)
-*Suricata enabled on the LAN interface with the Emerging Threats ruleset loaded — running in IDS (alert-only) mode.*
+*Suricata enabled on the LAN and WAN interfaces with the Emerging Threats ruleset loaded — running in IDS (alert-only) mode.*
 
 ![Suricata Rule Actions](screenshots/05-suricata-rule-actions.png)
 *Rule action configuration — Drop actions remapped to Alert so all traffic is logged and visible during the IDS phase.*
